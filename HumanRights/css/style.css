@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+#tester{
+    height: 999px;
+    width: 100%;
+    background-image: url('image/header.png');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/*
+tester 2
+*/
+#tester2{
+    height: 800px;
+    width: 100%;
+    background: yellow;
+    background-attachment: fixed;
+    z-index: 100;
+}
+#tester3{
+    height: 800px;
+    width: 100%;
+    background: #872838;
+    z-index: 200;
+}
