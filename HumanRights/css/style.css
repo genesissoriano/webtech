@@ -1,19 +1,42 @@
 * {
-	margin: 10px 10px 10px 10px;
+	margin: 0px 0px 0px 0px;
 	padding: 0;
+	}
+
+nav{
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: center;
+	background-color: #a1a9c1;
 	}	
 	
 h1{
 	font: normal 175% 'century gothic', arial, sans-serif;
 	text-align: center;
-	}
-		
-nav{
-	font-family: Verdana, Geneva, sans-serif;
-	text-align: center;
-	
+	background-color: #8fc1c1;
 	}
 
+h2{
+	font: normal 150% 'century gothic', arial, sans-serif;
+	padding: 0 0 20px 0;
+	}
+	
+h3, h4{
+	font: normal 130% 'century gothic', arial, sans-serif;
+	text-align: center;
+	padding: 0 0 20px 0;
+	}
+	
+p{  font: normal 120% 'century gothic', arial, sans-serif;
+	text-align: center;
+	padding: 0 0 20px 0;
+	}
+
+li{
+	font: normal 120% 'century gothic', arial, sans-serif;
+	text-align: center;
+	padding: 0 0 5px 0;
+}	
+	
 a:link {
 	font-weight: bold; 
 	text-decoration: none; 
@@ -29,13 +52,18 @@ a:hover, a:focus, a:active {
 	color: #909099;
 	}
 
-.quote{
+#quote{
+	font: normal 250% 'century gothic', arial, sans-serif;
 	text-align: center;
-	}
-#hr{
-	text-align: center;
+	background-color: #a2ccc4;
 	}
 	
-footer{
-	text-align: center;
+#hr{
+	text-align:center;
+	}
+	
+#footer{
+	font: normal 100% 'century gothic', arial, sans-serif;
+	text-align: center; 
+	background-color: #829ab2
 	}
