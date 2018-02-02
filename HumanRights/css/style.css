@@ -83,36 +83,112 @@ footer{
 	padding:25px 12px 15px 10px;
 }
 
-.preamble {
-  clear: left;
-  float: left;
-  left: 50%;
-  margin-left: -520px;
-  max-width: 495px;
-  position: relative;
-  top: 298px;
-  width: 50%;
-  z-index: 4;
+.banner2{
+	width:100%;
+	display:block;
 }
 
-header h2 {
-  text-align: right;
-  max-width: 400px;
-  margin: -400px auto auto auto;
-  width: 100%;
-  padding-top: 250px;
-  padding-right: 500px;
-  color:#fff;
-  text-align: right;
+.banner2 > .banner-image2{
+	width:100%;
+	display:block;
 }
 
-.supporting {
-  background-color: rgba(255, 255, 255, 0.9);
-  border-top: 5px solid #dd3b2a;
-  border-bottom: 5px solid #2babe1;
-  float: left;
-  position: relative;
-  width: 100%;
-  z-index: 3;
+
+.container{
+	display:flex;
 }
 
+.container div{
+	border: 0px #ffffff solid;
+	padding:0px;
+ }
+
+.content {
+  flex:1;
+  margin-top: 12em;
+  text-align: center;
+
+}
+
+.photo{
+  flex:1;
+  width:50%;
+  margin: 0;
+  padding: 0;
+}
+
+.content h3{
+  font-family: 'Tangerine', cursive;
+  font-size: 50px;
+}
+
+.content p{
+  font-family:;
+}
+
+
+.container-2 div{
+	border: 0px #ffffff solid;
+	padding:0px;
+ }
+
+.content-2 {
+  flex:1;
+  margin-top: 12em;
+  text-align: center;
+
+}
+
+.photo-2{
+  flex:1;
+  width:30%;
+  margin: 0;
+  padding: 0;
+}
+
+.content h3{
+  font-family: 'Tangerine', cursive;
+  font-size: 50px;
+}
+
+.content p{
+  font-family:;
+}
+
+
+/*/*gallery*/
+/*
+body,#slider, .wrap, .slide-content{
+	margin: 0;
+	padding: 0;
+	font-family: Arial,Helvetica,sans-serif;
+	width:100%;
+	height:100vh;
+	overflow-x:hidden;
+}
+
+.wrap{position: relative;}
+
+.slide{
+	background-size: cover;
+	background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slide1{background-image: url(../image/banner2.jpg)}
+.slide2{background-image: url(../image/banner2.jpg)}
+.slide3{background-image: url(../image/banner2.jpg)}
+
+.slide-content{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.slide-content span{
+	font-size: 5rem;
+	color: #ffffff;
+}
+*/*/
