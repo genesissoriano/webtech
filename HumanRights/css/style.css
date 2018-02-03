@@ -8,21 +8,20 @@ body {
 	padding: 0;
 }	
 	
-h1{
-	font: normal 175% 'century gothic', arial, sans-serif;
-	text-align: center;
-	}
+.barangayname{
+	font-family: 'Roboto Condensed', sans-serif;
+	padding: 10px 0 10px 0;
+	}	
 
- .nav{
+.nav{
  	background-color:#ffffff;
  	color:#ffffff;
  	list-style:none;
  	text-align: right;
- 	padding: 20px 0 10px 0;
-
+ 	padding: 10px 0 10px 0;
  }
 
- .nav > li{
+.nav > li{
  	display: inline-block;
  	padding: 0 25px 0 25px;
     font-size: 30px; 
@@ -40,21 +39,14 @@ h1{
 	color: #c1c1c1;
  }
 
- #nav{
- 	 font-family: 'Roboto Condensed', sans-serif;
- }
-
 .quote{
 	text-align: center;
 	}
+
 #hr{
 	text-align: center;
 	}
 	
-footer{
-	text-align: center;
-	}
-
 .barangayname{
 	color: #000000;
 	float:left;
@@ -79,7 +71,7 @@ footer{
 }
 
 .home:hover{
-	background-color:red;
+	background-color: gray;
 	padding:25px 12px 15px 10px;
 }
 
@@ -113,7 +105,7 @@ footer{
 .photo{
   flex:1;
   width:50%;
-  margin: 0;
+  margin: 25px 0px 10px 0px;
   padding: 0;
 }
 
@@ -146,14 +138,13 @@ footer{
   padding: 0;
 }
 
-.content h3{
-  font-family: 'Tangerine', cursive;
-  font-size: 50px;
-}
-
 .content p{
   font-family:;
 }
+
+footer{
+	text-align: center;
+	}
 
 
 /*/*gallery*/
