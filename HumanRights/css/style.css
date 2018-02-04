@@ -11,6 +11,11 @@ body {
 .barangayname{
 	font-family: 'Roboto Condensed', sans-serif;
 	padding: 10px 0 10px 0;
+	color: #000000;
+	float:left;
+	padding-left:20px;
+	font-size:30px;
+	font-weight:bold;
 	}	
 
 .nav{
@@ -19,190 +24,149 @@ body {
  	list-style:none;
  	text-align: right;
  	padding: 10px 0 10px 0;
- }
+	}
 
 .nav > li{
  	display: inline-block;
- 	padding: 0 25px 0 25px;
+ 	padding-right: 20px;
     font-size: 30px; 
     font-family: 'Roboto Condensed', sans-serif;
- }
+	}
 
  .nav > li > a{
  	text-decoration: none;
  	color:#000000;
-
- }
+	}
 
  .nav > li > a:hover, a:focus, a:active{
     text-decoration: none; 
 	color: #c1c1c1;
- }
-
-.quote{
-	text-align: center;
 	}
-
-#hr{
-	text-align: center;
-	}
-	
-.barangayname{
-	color: #000000;
-	float:left;
-	padding-left:25px;
-	font-size:30px;
-	font-weight:bold;
-}
 
 .barangayname > a{
 	text-decoration:none;
 	color:#000000;
-}
+	}
 
 .banner{
 	width:100%;
 	display:block;
-}
+	}
 
 .banner > .banner-image{
 	width:100%;
 	display:block;
-}
+	}
 
 .home:hover{
 	background-color: gray;
 	padding:25px 12px 15px 10px;
-}
+	}
 
 .banner2{
 	width:100%;
 	display:block;
-}
+	}
 
 .banner2 > .banner-image2{
 	width:100%;
 	display:block;
-}
-
+	}
 
 .container{
 	display:flex;
-}
+	}
 
 .container div{
 	border: 0px #ffffff solid;
 	padding:0px;
- }
-
-.content {
-  flex:1;
-  margin-top: 12em;
-  text-align: center;
-
-}
-
-.photo{
-  flex:1;
-  width:50%;
-  margin: 25px 0px 10px 0px;
-  padding: 0;
-}
-
-.content h3{
-  font-family: 'Tangerine', cursive;
-  font-size: 50px;
-}
-
-.content p{
-  font-family:;
-}
-
-
-footer{
-	text-align: center;
-	background-color:black;
-	padding:100px;
 	}
 
+.content1 {
+	flex:1;
+	margin-top: 13em;
+	margin-left: 5em;
+	text-align: center;
+	}
+
+.content2 {
+	flex:1;
+	margin-top: 9em;
+	margin-left: 4em;
+	margin-right: 8em;
+	text-align: center;
+	}
+	
+.content2 p{
+	text-align: justify;
+	}
+
+.photo{
+	flex:1;
+	width:100%;
+	margin: 50px 0px 10px 0px;
+	padding: 0;
+	}
+	
+.container-2 div{
+	border: 0px #ffffff solid;
+	padding:0px;
+	}
+
+.brgy-intro{
+	flex:1;
+	margin-top: 9em;
+	margin-left: 4em;
+	margin-right: 8em;
+	text-align: center;
+	}
+
+h3{
+	font-family: 'Tangerine', cursive;
+	font-size: 50px;
+	}	
+
+p{
+	font-family: 'Roboto Condensed', sans-serif;
+	}
+
+li{
+	font-family: 'Roboto Condensed', sans-serif;
+	}
 
 /*/*gallery*/
-.slides {
-    padding: 0;
-    width: 609px;
-    height: 420px;
-    display: block;
-    margin: 0 auto;
-    position: relative;
+/*
+body,#slider, .wrap, .slide-content{
+	margin: 0;
+	padding: 0;
+	font-family: Arial,Helvetica,sans-serif;
+	width:100%;
+	height:100vh;
+	overflow-x:hidden;
 }
 
-.slides input { display: none; }
+.wrap{position: relative;}
 
-.slide-container { display: block; }
-
-.slide {
-    top: 0;
-    opacity: 0;
-    
-    display: block;
-    position: absolute;
-
-    transform: scale(0);
-
-    transition: all .7s ease-in-out;
+.slide{
+	background-size: cover;
+	background-position: center;
+  background-repeat: no-repeat;
 }
 
-.slide img {
-    width: 100%;
-    height: 100%;
-}
+.slide1{background-image: url(../image/banner2.jpg)}
+.slide2{background-image: url(../image/banner2.jpg)}
+.slide3{background-image: url(../image/banner2.jpg)}
 
-.slide:hover + .nav label { opacity: 0.5; }
-
-.nav label:hover { opacity: 1; }
-
-.nav .next { right: 0; }
-
-input:checked + .slide-container  .slide {
-    opacity: 1;
-
-    transform: scale(1);
-
-    transition: opacity 1s ease-in-out;
-}
-
-input:checked + .slide-container .nav label { display: block; }
-
-.nav-dots {
-	width: 100%;
-	bottom: 9px;
-	height: 11px;
-	display: block;
-	position: absolute;
+.slide-content{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	text-align: center;
 }
 
-.nav-dots .nav-dot {
-	top: -5px;
-	width: 11px;
-	height: 11px;
-	margin: 0 4px;
-	position: relative;
-	border-radius: 100%;
-	display: inline-block;
-	background-color: rgba(0, 0, 0, 0.6);
+.slide-content span{
+	font-size: 5rem;
+	color: #ffffff;
 }
-
-.nav-dots .nav-dot:hover {
-	cursor: pointer;
-	background-color: rgba(0, 0, 0, 0.8);
-}
-
-input#img-1:checked ~ .nav-dots label#img-dot-1,
-input#img-2:checked ~ .nav-dots label#img-dot-2,
-input#img-3:checked ~ .nav-dots label#img-dot-3,
-input#img-4:checked ~ .nav-dots label#img-dot-4,
-input#img-5:checked ~ .nav-dots label#img-dot-5,
-input#img-6:checked ~ .nav-dots label#img-dot-6 {
-	background: rgba(0, 0, 0, 0.8);
-}
+*/
