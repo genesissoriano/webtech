@@ -1,0 +1,689 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+h2{
+	font-family: 'Georgia', sans-serif;
+	font-size: 115px;
+	}	
+	
+h3{
+	font-family: 'Georgia', sans-serif;
+	font-size: 40px;
+	}
+
+li{
+	font-family: 'Georgia', sans-serif;
+	}
+
+p{
+	font-family: 'Georgia', sans-serif;
+	}
+
+/*HUMAN RIGHTS*/
+.container{
+	display:flex;
+	}
+
+.container div{
+	border: 0px #ffffff solid;
+	padding:0px;
+	}
+
+.photo{
+	flex:1;
+	width:100%;
+	margin: 30px 0px 10px 0px;
+	padding: 0;
+	}
+
+	
+/*footer*/
+.footer{
+	background-color:black;
+ 	color:#ffffff;
+ 	list-style:none;
+ 	text-align: center;
+ 	padding: 10px 0px 10px 0px;
+	}
+
+.footer p{
+	display: inline-block;
+    font-size: 20px; 
+	padding-left: 20px;
+	text-align: justify;
+	}	
+	
+	
+/*navigation bar*/	
+.barangayname{
+	font-family: 'Georgia', sans-serif;
+	padding: 10px 0 10px 0;
+	color: #000000;
+	float:left;
+	padding-left:20px;
+	font-size:30px;
+	font-weight:bold;
+	}	
+
+.barangayname > a{
+	text-decoration:none;
+	color:#000000;
+	}
+
+.nav{
+ 	background-color:#ffffff;
+ 	color:#ffffff;
+ 	list-style:none;
+ 	text-align: right;
+ 	padding: 10px 0px 10px 0px;
+	}
+
+.nav > li{
+ 	display: inline-block;
+ 	padding-right: 20px;
+    font-size: 30px; 
+    font-family: 'Georgia', sans-serif;
+	}
+
+ .nav > li > a{
+ 	text-decoration: none;
+ 	color:#000000;
+	}
+
+ .nav > li > a:hover, a:focus, a:active{
+    text-decoration: none; 
+	color: #c1c1c1;
+	}
+
+	
+/*home page*/
+/*banner*/
+.banner{
+	width:100%;
+	display:block;
+	}
+
+.banner > .banner-image{
+	width:100%;
+	display:block;
+	}
+
+.content1 {
+	flex:1;
+	margin-top: 6em;
+	margin-left: 8em;
+	text-align: center;
+	}
+
+.content1 h3{
+	font-size: 40px;
+	}
+	
+.content1 p{
+	font-size: 20px;
+	}
+
+.content2 {
+	flex:1;
+	margin-top: 3em;
+	margin-left: 4em;
+	margin-right: 9em;
+	text-align: center;
+	}
+	
+.content2 h3{
+	font-size: 30px;
+	}
+	
+.content2 p{
+	font-size: 20px;
+	line-height: 1.3em;
+	text-align: justify;
+	}
+	
+	
+/*community page*/
+/*banner*/
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 36%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    font-family: 'Georgia', sans-serif;
+    color:#fff;
+	}
+
+.padded-multiline { 
+	line-height: 1.4; 
+	padding: 0px 0px 0px 0px;
+	width: 400px;
+	margin: 20px auto;
+	}
+
+.padded-multiline span { 
+	background-color: black;
+	color: #fff; 
+	display: inline;
+	padding: 0.5em;
+	}
+
+.brgy-intro {
+	flex:1em;
+	margin-top: 2em;
+	margin-left: 2em;
+	margin-right: 5em;
+	text-align: center;
+	}
+
+.brgy-intro h3{
+	font-size: 30px;
+	}
+
+.brgy-intro p{
+	font-size: 17px;
+	line-height: 1.3em;
+	text-align: justify;
+	}
+
+.hr-report {
+	flex:1em;
+	margin-top: 3em;
+	margin-left: 5em;
+	margin-right: 0em;
+	text-align: center;
+	}
+
+.hr-report h3{
+	font-size: 30px;
+	}
+	
+.hr-report p{
+	font-size: 17px;
+	line-height: 1.3em;
+	text-align: justify;
+	}
+
+.seminar {
+	flex:1em;
+	margin-top: 6em;
+	margin-left: 3em;
+	margin-right: 3em;
+	text-align: center;
+	}
+
+.seminar h3{
+	font-size: 30px;
+	}
+	
+.seminar p{
+	font-size: 17px;
+	line-height: 1.3em;
+	text-align: justify;
+	}
+
+
+/*gallery page*/
+.gallery-page{
+	height: 650px;
+	background-image: url("../styles/background/bg1.jpg");
+	}
+	
+.slides {
+    padding: 0;
+    width: 100%;
+    display: block;
+    margin: 20px auto;
+    position: absolute;
+	}
+
+.slides input { 
+	display: none; 
+	}
+
+.slide-container { 
+	display: block;
+	}
+
+.slide {
+    top: 0;
+    opacity: 0;
+    display: block;
+    position: absolute;
+    transform: scale(0);
+    transition: all .7s ease-in-out;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+input:checked + .slide-container  .slide {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 1s ease-in-out;
+}
+
+input:checked + .slide-container .nav label { 
+	display: block; 
+	}
+
+.nav-dots {
+	width: 100%;
+	top: -130px;
+	height: 0;
+	display: block;
+	position: relative;
+	text-align: center;
+	}
+
+.nav-dots .nav-dot {
+	top: 150px;
+	width: 10px;
+	height: 10px;
+	margin: 0 4px;
+	position: relative;
+	border-radius: 100%;
+	display: inline-block;
+	background-color: rgb(255,255,255);
+	}
+
+.nav-dots .nav-dot:hover {
+	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0.8);
+	}
+
+input#img-0:checked ~ .nav-dots label#img-dot-0
+input#img-1:checked ~ .nav-dots label#img-dot-1,
+input#img-2:checked ~ .nav-dots label#img-dot-2,
+input#img-3:checked ~ .nav-dots label#img-dot-3,
+input#img-4:checked ~ .nav-dots label#img-dot-4,
+input#img-5:checked ~ .nav-dots label#img-dot-5,
+input#img-6:checked ~ .nav-dots label#img-dot-6
+input#img-7:checked ~ .nav-dots label#img-dot-7 {
+	background: rgba(0, 0, 0, 0.8);
+	}
+
+
+/*about page*/
+.about-page{
+	background-image: url("../styles/background/bg2.jpg");
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+
+.structure h2{
+	font-size: 30px;
+	text-align: center;
+	}
+	
+.structure p{
+	font-size: 25px;
+	text-align: center;
+	}
+	
+.contact h2{
+	font-size: 25px;
+	text-align: center;
+	}
+	
+.contact p{
+	font-size: 25px;
+	text-align: center;
+	}
+	
+/*media query*/
+@media only screen and (min-width: 1024px) {
+ 	.gallery-page{
+ 		height:1024px;
+ 		background-repeat: no-repeat;
+ 		background-size: cover;
+ 	}
+}
+
+
+/*GENDER EQUALITY*/
+
+/*Banner Picture*/
+.Banner:hover{ 
+    background-color: white;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    float: center;
+    opacity: 100%;
+	}
+
+/*gender equality part*/
+.Header{
+	font-size: 40px;
+	}
+.top {
+    width: 100%;
+    height: 100%;
+    }
+
+.genderTop{
+	background-color: beige;
+	}
+
+.genderTop header{
+	font-family: 'Georgia', sans-serif;
+	font-size: 30px;
+    text-align: center;
+	font-weight: bold;
+	}
+
+#genderequality h4{
+	font-family: 'Georgia', sans-serif;
+	font-size: 25px;
+	text-align: justify;
+    padding-left: 150px;
+    padding-right: 150px;
+	line-height: 1.3em;
+	font-weight: normal;
+	}
+
+#lowerGender{
+	text-align: center;
+	background-color: beige;
+    float: center;
+    font-family: 'Georgia', sans-serif;
+	font-size: 20px;
+	}
+
+#sex header{
+	font-family: 'Georgia', sans-serif;
+	font-size: 30px;
+    text-align: center;
+	font-weight: bold;
+	}
+	
+#sex h4{
+	text-align: justify;
+    margin-right: 10%;
+    margin-left: : 10%;
+    padding-left: 150px;
+    padding-right: 50px;
+	font-family: 30px;
+	font-weight: normal;
+	line-height: 1.3em;
+	}
+
+#gender header{
+	font-family: 'Georgia', sans-serif;
+	font-size: 30px;
+    text-align: center;
+	font-weight: bold;
+	}
+	
+#gender h4{
+	text-align: justify;
+    margin-right: 10%;
+    margin-left: : 10%;
+    padding-left: 150px;
+    padding-right: 50px;
+	font-family: 30px;
+	font-weight: normal;
+	line-height: 1.3em;
+	}
+
+#homeFooter{
+	background-color: beige;
+    font-family: 'Georgia', sans-serif;
+	}
+	
+#homeFooter h4, a{
+	text-decoration: none;
+	color: #000000;
+	text-align: center;
+	}
+	
+#homeFooter p{
+	text-decoration: none;
+	color: #ffffff;
+	text-align: center;
+	background-color: black;
+	}
+
+.tagline{
+    font-family: 'Georgia', sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    font-style:  italic;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	}
+
+.missionTop{
+    font-family: 'Georgia', sans-serif;
+    font-size: 20px;
+    background-color: beige;
+    float: left;
+    margin-top: 2%;
+    margin-right: 10%;
+    margin-left: : 10%;
+    padding-left: 150px;
+    padding-right: 50px;
+	font-weight: normal;
+	}
+
+.missionTop header{
+	font-size: 40px;
+	}
+	
+.missionTop h4{
+	text-align: justify;
+    margin-right: 10%;
+    margin-left: : 10%;
+    padding-left: 150px;
+    padding-right: 50px;
+	font-family: 30px;
+	font-weight: normal;
+	line-height: 1.3em;
+	}
+	
+.visionBottom{
+    font-family: 'Georgia', sans-serif;
+    background-color: beige;
+    float: left;
+    margin-top: 2%;
+    margin-right: 10%;
+    margin-left: : 10%;
+    padding-left: 150px;
+    padding-right: 50px
+	}
+
+.visionBottom header{
+	font-size: 40px;
+	}
+	
+.visionBottom h4{
+	text-align: justify;
+    margin-right: 10%;
+    margin-left: : 10%;
+    padding-left: 150px;
+    padding-right: 50px;
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 1.3em;
+	}
+
+.Facts{
+	 background-color: #F8F8FF;
+	 text-align: justify;
+	}
+	
+.factss{
+	font-family: 'Georgia', sans-serif;
+	background-image: url("../styles/background/facts.jpg");
+	border: 4px grey;
+	border-radius: 4px;
+	background-color: lightblue;
+	}
+	
+.factss h4{
+	text-align: center;
+	font-size: 50px;
+	}
+
+.factss ol{
+	text-align: justify;
+	font-size: 20px;
+	line-height: 1.4em;
+	margin-left: 28%;
+	margin-right: 28%;
+	}
+
+.Interview{
+	font-family: "Times New Roman", Times, serif;
+	background-image: url("../styles/background/mic.png");
+	line-height: 1.3em;
+	}
+
+.Facts h3{
+	text-align: center;
+	font-size: 50px;
+	}
+
+.Facts h4{
+	text-align: center;
+	font-size: 30px;
+	}
+	
+.Steps{
+	font-family: 'Georgia', sans-serif;
+	background-image: url("../styles/background/20180129_095748.png");
+	text-align: justify;
+	}
+
+.Action {
+	height: 50%;
+    width: 50%;
+	}
+	
+img.Action{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+	}
+
+footer p{
+	background-color: black;
+	color: white;
+	}
+
+
+/*PEACE AND ORDER*/
+h1{
+	font-size: 20px;
+	}
+	
+header nav{
+	padding-top: 0;
+	}
+	
+header h1 {
+	font-size: 30px;
+	font-family: 'Georgia', sans-serif;
+	float: left;
+	margin-top: 10px;
+	padding-left: 20px;
+	}
+
+header h2  {
+	font-size: 100px;
+	text-align: center;
+	background-color: #C0C0C0;
+	}
+
+.intro{
+	background-color: #C0C0C0;
+	}
+
+.video{
+	display: block;
+	margin: 0 auto;
+	}
+
+#pao-target{
+	background-color: #C0C0C0;
+	}
+
+#pao-target h3, p{
+	text-align: center;
+	line-height: 1.3em;
+	}
+
+#pao-objective {
+	background-color: #C0C0C0;
+	}
+
+#pao-objective h3, p{
+	text-align: center;
+	line-height: 1.3em;
+	}
+
+#pao-support {
+	background-color: #C0C0C0;
+	}
+
+#pao-support h3, p{
+	text-align: center;
+	line-height: 1.3em;
+	}
+
+#Literature-Review{
+	background-image: url("../styles/background/bg1.jpg");
+	}
+	
+#literature p {
+	font-size: 25px;
+	text-align: justify;
+	margin: 50px 70px 0px 170px;
+	}
+
+#methods {
+	font-family: 'Georgia', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: justify;
+	line-height: 1.2em;
+	background-image: url("../styles/background/mic.png");
+	}
+
+#methods li{
+	font-size: 20px;
+	line-height: 1.3em;
+	}
+
+#Vision-Mission {
+	text-align: center;
+	background-image: url("../styles/background/bg1.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	}
+
+.con {
+	background-color: black;
+	}
+
+.con a {
+	font-family: 'Georgia', sans-serif;
+	font-size: 20px;
+	text-decoration:none;
+	color:#ffffff;
+	display: inline-block;
+	padding-left: 650px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	}
