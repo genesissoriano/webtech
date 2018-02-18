@@ -1,5 +1,5 @@
 html,body{
-   
+    background-color:;
     text-align : center;
     margin: 0;
     padding: 0;
@@ -9,7 +9,6 @@ html,body{
 /*Navigation Bar */
 #nav{
     float: center;
-    font-family: 'Georgia', sans-serif;
 	font-size: 20px;
     width: auto;
     list-style-type: none;
@@ -19,13 +18,13 @@ html,body{
     background-color: grey;
 }
 
-li {
+#nav li {
     float: left; 
-    font-family: 'Georgia', sans-serif;
+   font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
     font-size: 20px;
 }
 
-li a {
+#nav li a {
 
     display: block;
     color: white;
@@ -34,179 +33,411 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+#nav li a:hover {
     background-color: #111;
 }
 
-li a:hover,a:active{
+#nav li a:hover,a:active{
     color: white;
 }
 a:hover,a:active{
     color: red;
-}
-/*Banner Picture*/
-.Banner:hover{ 
-    background-color: black;
-    opacity: 0.8;
-    width: 100%;
-    height: 100%;
-    float: center;
-    opacity: 100%;
-
+} 
+.Header{
+     font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    font-weight: bolder;
+    font-size: 30px;
 }
 
-/*gender equality part*/
+h4{
+    font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
+    font-weight: normal;
+    font-size: 15px;
+}
+.Banner{
+    object-fit: cover;
+    height: auto;
+    width: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+.top{
 
-.top {
-        width: 100%;
-        height: 100%;
+    transition: transform .2s; /* Animation */
+    width: 800px;
+    height: 300px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    padding-top:  50px;
+}
 
-    }
+.top:hover{
+   transform: scale(1.4);
+ }
 
 .genderTop{
-    
-    float: left;
-    margin-left: 15%;
-    margin-right: 10%;
-    padding-right: 5px;
-    padding-left: 5px%;
-    text-align: justify-all;
-    float: center;
-
-
-}
-.Header{
-    background-color: beige;
-    float:left;
-    font-weight: bolder;
-    padding-top: 5px;
-    padding-left: 5px;
-    font-family: 'Georgia', sans-serif;
-	font-size: 40px;
-}
-#genderequality{
-    background-color: beige;
-    float: left;
-    margin: 10p%;
-    padding-left: 50px;
-    padding-right: 50px;
-    text-align: justify-all;
-    text-justify: inter-word;
-    font-style: normal;
-    font-weight: 100; 
-
-
-}
-h4{
-    font-family: 'Georgia', sans-serif;
-	font-size: 20px;
-    text-align: justify; 
-    font-weight: lighter;
-    font-style: normal;
+    background: LightBlue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-right: 40%;
+    text-align: justify;
 }
 
 #lowerGender{
-
-    float: center;
-    font-family: 'Georgia', sans-serif;
-	font-size: 20px;
-    margin-right:10px;
-    margin-left: 200px;
-    padding-right: 100px;
-    padding-right: 100px;
+    background-color: LightSalmon;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 40%;
+    text-align: justify;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
+
 #sex{
-    background-color: beige;
-    float: left;
-    margin-top: 2%;
-    margin-right: 10%;
-    margin-left: : 10%;
-    padding-left: 150px;
-    padding-right: 50px;
-
-    
-}
-
-#sexHeader{
-    font-family: 'Georgia', sans-serif;
-  
-}
-
-
-
-}
-#genderHeader{
-     font-family: 'Georgia', sans-serif;
-  
+    background-color: LightGoldenRodYellow;
+    padding: 5% ;
 }
 
 #gender{
-    font-family: 'Georgia', sans-serif;
-    font-size: 20px;
-    background-color: beige;
-    float: left;
-    margin-top: 2%;
-    margin-right: 10%;
-    margin-left: : 10%;
-    padding-left: 150px;
-    padding-right: 50px
+    margin-top: 5%;
+    background-color: LightGoldenRodYellow;
+    padding: 5% ;
 }
 
-
-#homeFooter{
-    width: auto;
-    height:300px;
-    margin-left: 20%;
-    margin-right: 20%;
-    font-family: 'Georgia', sans-serif;
-    float: center;
-    font-size: 20px;
+#genderequality{
+     margin-top: 5%;
+    background-color: LightGoldenRodYellow;
+    padding: 5px ;
+    padding-left: 5%;
+     padding-right: 5%;
 }
 
 .tagline{
-    font-family: 'Georgia', sans-serif;
-    float: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    font-size: 20px;
+    font-family: Papyrus, fantasy;
     font-weight: bolder;
-    font-style:  italic;
-}
-#MaVHeader{
-    float:center;
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 25%;
-}
-.missionTop{
-     font-family: 'Georgia', sans-serif;
-    font-size: 20px;
-    background-color: beige;
-    float: left;
-    margin-top: 2%;
-    margin-right: 10%;
-    margin-left: : 10%;
-    padding-left: 150px;
-    padding-right: 50px
-}
-.visionBottom{
-    font-family: 'Georgia', sans-serif;
-    font-size: 20px;
-    background-color: beige;
-    float: left;
-    margin-top: 2%;
-    margin-right: 10%;
-    margin-left: : 10%;
-    padding-left: 150px;
-    padding-right: 50px
+    font-size: 30px;
 }
 
-footer{
-    width: auto;
-    height:300px;
-    margin-left: 20%;
-    margin-right: 20%;
-    font-family: 'Georgia', sans-serif;
+#headerMaV .Banner .top {
+
+width:500px;
+height:140px;
+padding:0;
+position: relative;
+white-space: nowrap; 
+overflow: hidden;
+background-repeat: repeat;
+
+-moz-animation:  Banner 10s linear 1s infinite;
+-webkit-animation:  Banner 10s linear 1s infinite;
+}
+@-moz-keyframes Banner { 0% { margin-left:0%; } 100% { margin-left:-4200px; }  }
+@-webkit-keyframes Banner { 0% { margin-left:0%; } 100% { margin-left:-4200px; }  }
+
+#MaVHeader{
     float: center;
+    background-color: LightGoldenRodYellow ;
+}
+
+.missionTop{
+    width: 49%;float: left;
+    background-color: LightBlue;
+    padding:5px;
+    height: 500px;
+   }
+
+.missionTop h4{
+    background-color: LightGoldenRodYellow ;
+    text-align: justify;
+    margin: 20px;
+    padding:10px;
+    height: 350px;
+}
+
+.visionBottom{
+    width:49%; float: right;
+    background-color: LightPink;
+    padding: 5px;
+    height: 500px;
+    
+}
+.visionBottom h4{
+    background-color: LightGoldenRodYellow ;
+    margin: 20px;
+    text-align: justify;
+    padding: 10px;
+    height: 350px
+}
+
+#missionHeader{
+    padding: 5px;
+    margin: 5px;
+}
+
+#visionHeader{
+    padding: 5px;
+    margin: 5px;
+}html,body{
+    background-color: khaki;
+    text-align : center;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Navigation Bar */
+#nav{
+    float: center;
+	font-size: 20px;
+    width: auto;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+}
+
+#nav li {
+    float: left; 
+   font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
     font-size: 20px;
 }
+
+#nav li a {
+
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#nav li a:hover {
+    background-color: #111;
+}
+
+#nav li a:hover,a:active{
+    color: white;
+}
+a:hover,a:active{
+    color: red;
+} 
+.Header{
+     font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+h4{
+    font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
+    font-weight: normal;
+    font-size: 15px;
+}
+.Banner{
+    object-fit: cover;
+    height: auto;
+    width: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+.top{
+
+    transition: transform .2s; /* Animation */
+    width: 800px;
+    height: 300px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    padding-top:  50px;
+}
+
+.top:hover{
+   transform: scale(1.4);
+ }
+
+.genderTop{
+    background: LightBlue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-right: 40%;
+    text-align: justify;
+}
+
+#lowerGender{
+    background-color: LightSalmon;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 40%;
+    text-align: justify;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#sex{
+    background-color: LightGoldenRodYellow;
+    padding: 5% ;
+}
+
+#gender{
+    margin-top: 5%;
+    background-color: LightGoldenRodYellow;
+    padding: 5% ;
+}
+
+#genderequality{
+     margin-top: 5%;
+    background-color: LightGoldenRodYellow;
+    padding: 5px ;
+    padding-left: 5%;
+     padding-right: 5%;
+}
+
+.tagline{
+    font-family: Papyrus, fantasy;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+#headerMaV .Banner .top {
+
+width:500px;
+height:140px;
+padding:0;
+position: relative;
+white-space: nowrap; 
+overflow: hidden;
+background-repeat: repeat;
+
+-moz-animation:  Banner 10s linear 1s infinite;
+-webkit-animation:  Banner 10s linear 1s infinite;
+}
+@-moz-keyframes Banner { 0% { margin-left:0%; } 100% { margin-left:-4200px; }  }
+@-webkit-keyframes Banner { 0% { margin-left:0%; } 100% { margin-left:-4200px; }  }
+
+#MaVHeader{
+    float: center;
+    background-color: LightGoldenRodYellow ;
+}
+
+.missionTop{
+    width: 49%;float: left;
+    background-color: LightBlue;
+    padding:5px;
+    height: 500px;
+   }
+
+.missionTop h4{
+    background-color: LightGoldenRodYellow ;
+    text-align: justify;
+    margin: 20px;
+    padding:10px;
+    height: 350px;
+}
+
+.visionBottom{
+    width:49%; float: right;
+    background-color: LightPink;
+    padding: 5px;
+    height: 500px;
+    
+}
+.visionBottom h4{
+    background-color: LightGoldenRodYellow ;
+    margin: 20px;
+    text-align: justify;
+    padding: 10px;
+    height: 350px
+}
+
+#missionHeader{
+    padding: 5px;
+    margin: 5px;
+}
+
+#visionHeader{
+    padding: 5px;
+    margin: 5px;
+}
+
+
+/**/
+.Facts{
+	border-style: dotted;
+	border-width: 15px;
+	text-align : center;
+	 background-color: #DDA0DD;
+	 border-color: #00FF7F;
+}
+.factss{
+	border-style: double;
+	border-color: #3D3D3;
+    border-width: 15px;
+	font-family: "Times New Roman", Times, serif;
+	text-align : center;
+	font-size: 200%;
+	background-color: lightblue;
+}
+.Interview{
+	font-family: "Times New Roman", Times, serif;
+	 font-size: 150%;
+	border-style: inset;
+	border-width: 15px;
+	background-color: #FFB6C1;
+}
+
+/**/
+.Steps{
+	
+	 height: 1200px;
+    background: #FFA500; 
+    background: linear-gradient(#98FB98, pink); 
+	font-family: "Times New Roman", Times, serif;
+	 font-size: 150%;
+	border-style: dotted;
+	border-width: 15px;
+	text-align : center;
+	
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+    border-radius:0;
+	
+	border:50px dashed rgba(0,0,0,0.7);
+	
+	background-repeat:no-repeat;
+    background-origin:border-box;
+    background-position:50% 50%;
+    
+    border-width:50px;
+    border-color:rgba(0,0,0,0);
+    
+    -webkit-transition:0.5s ease;
+    -moz-transition:0.5s ease;
+    -ms-transition:0.5s ease;
+    -o-transition:0.5s ease;
+    transition:0.5s ease;
+	
+}
+
+
+.Steps:hover {
+	
+	border: 1px dashed rgba(0,0,0,0.7);
+    border-width:0;
+    border-color:rgba(0,0,0,0.5);
+	border: 1px dashed rgba(0,0,0,0.7);
+}
+
+
+
+
+
+
+
+
+
+ 	
